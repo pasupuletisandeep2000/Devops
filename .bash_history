@@ -106,3 +106,44 @@ vi van.txt
 cat van.txt
 ./ van.txt
 sh van.txt
+clear
+yum install git -y
+git init
+touch file firstfile
+vim firstfile
+cat vim
+cat firstfile
+git status
+git add firstfile
+git status
+git commit -m 'first commit' firstfile
+git status
+git branch
+git add firstfile
+git commit -m 'first commit' firstfile
+ll
+git init .
+ll
+ls -al
+ls
+git add firstfile
+git commit -m 'first commit' firstfile
+git add firstfile
+git commit -m "first commit" firstfile
+git log
+git status
+touch secondfile
+ll
+git add .
+git commit -m "second commit" .
+git status
+git log
+git remote add origin https://github.com/pasupuletisandeep2000/Devops.git
+pasupuletisandeep2000
+git push -u origin master
+git remote add origin https://github.com/pasupuletisandeep2000/Devops.git
+pasupuletisandeep2000
+git status
+git log
+git branch
+git push -u origin master
